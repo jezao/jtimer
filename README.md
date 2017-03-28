@@ -5,7 +5,6 @@ A really lightweight js timer
 Jtimer was made for who needs ONLY to show a *time counter* in a page. No complex layout, No callbacks, No unnecessary code.
 
 ## Example
-
-https://jsbin.com/vuzavosidu/edit?html,js,output
+https://jsbin.com/bapebus/edit?html,js,output
 
 
