@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>JS Bin</title>
+  </head>
+  <body>
+    <p><span id="timer">00:00:00</span></p>
+    <p><span id="timer2"></span></p>
+  </body>
+  <script type="text/javascript" src="jtimer.min.js"></script>
+  <script type="text/javascript">
+  window.onload = function()
+  {
+    jTimer(document.getElementById("timer"));
+    jTimer(document.getElementById("timer2"),'<b>[HH]:[MM]:<i>[SS]</i></b>');
+  }
+  </script>
+</html>
