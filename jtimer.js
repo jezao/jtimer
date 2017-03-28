@@ -1,6 +1,8 @@
 function jTimer(_target,_mask=null)
 {
-    var _hours = _minutes = _seconds = 0;
+    var _hours = 0
+    var _minutes = 0
+    var _seconds = 0;
     var _mask    = (_mask == null) ? '[HH]:[MM]:[SS]' : _mask;
 
     setInterval(function(){
